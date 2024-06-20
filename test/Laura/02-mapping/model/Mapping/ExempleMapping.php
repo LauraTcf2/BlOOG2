@@ -30,7 +30,7 @@ class ExempleMapping extends AbstractMapping
     // Les setters permettent de modifier la valeur
     // d'un attribut de la classe, en utilisant l'hydratation
     // venant de la classe AbstractMapping
-    public function getExempleId(): ?int
+    public function permission_id(): ?int
     {
         return $this->exemple_id;
     }
